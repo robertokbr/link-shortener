@@ -1,4 +1,4 @@
-html, body {
+*, html, body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -36,7 +36,8 @@ div.content {
   border: 2px solid #6272a4;
 
   @media (max-width: 400px) {
-    width: 70%;
+    width: 70vw;
+    max-width: 70vw;
     margin: auto;
   }
 }
@@ -111,7 +112,7 @@ div.footer {
 }
 
 div.char {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
 }
