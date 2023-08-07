@@ -31,7 +31,7 @@ export default function Home() {
         <button onClick={handleShorten}>Shorten</button>
         {shortUrl && (
           <div>
-            <strong>Short URL: <a href={shortUrl}>{shortUrl}</a></strong>
+            <strong><a href={shortUrl}>{shortUrl}</a></strong>
           </div>
         )}
       </div>
