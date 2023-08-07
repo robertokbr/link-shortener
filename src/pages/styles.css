@@ -84,3 +84,22 @@ div.footer {
   align-items: center;
   justify-content: center;
 }
+
+div.char {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+div.char-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+div.char-box {
+  position: absolute;
+  bottom: -50px;
+  left: -80px;
+}

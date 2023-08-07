@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta name="description" content="A simple URL shortener built with Next.js and Prisma" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"/>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet"></link>

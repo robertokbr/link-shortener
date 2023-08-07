@@ -1,6 +1,7 @@
 // pages/index.tsx
 import React, { useState } from 'react';
 import axios from 'axios';
+import { Char } from '@/components/char';
 
 export default function Home() {
   const [longUrl, setLongUrl] = useState('');
@@ -34,6 +35,7 @@ export default function Home() {
           </div>
         )}
       </div>
+      <Char/>
       <div className='footer'>
         <p className='credits'>
           © 2023 Roberto Junior
